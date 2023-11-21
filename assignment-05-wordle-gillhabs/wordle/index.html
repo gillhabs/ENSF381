@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Wordle</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body id = "body">
+
+    <script src="./wordle.js"></script>
+
+    <div class = "containter">
+      <div class = "box1">
+        <div class = "container2">
+
+          <div class = "cont2box1"></div>
+          <div class = "cont2box2"><h1 id = "wordle" class = "center">Wordle</h1></div>
+          <div class = "cont2box3">
+
+            <button input type = "button" id = "darkmode" class = "headerbuttonlight" onclick = "darkMode()">&#9681</button>
+            <button input type = "button" id = "hint" class = "headerbuttonlight" onclick = "hintReveal()"> &#63</button>
+            <button input type = "button" id = "info" class = "headerbuttonlight" onclick = "infoReveal()">&#9432</button>
+
+          </div>
+        </div>
+      </div>
+
+
+      <div class = "box2">
+        <div class = "container3">
+          <div class = "container4">
+
+            <div><img id = "winimage" style = "display: none" src = "congrats.gif" alt = "congrats"></div>
+            <div><button input= "button" id = "startagainimg" style = "display: none" class = "startbuttonimg" onclick = "startOver()">Start Over</button></div>
+            
+            <div id = "game">
+              <div class = "grid"></div>
+              <button input = "button" id = "startagain" class = "startbutton" onclick = "startOver()">Start Over</button> 
+            
+            </div>
+          </div>
+
+          <div id = "inforeveal" style = "display: none" class = "rightside">
+            <p class = "tab"><strong>How To Play</strong></p>
+            <ul type = "circle" class = "space">
+              <li>Start typing. The letters will appear in the boxes</li>
+              <li>Remove letters with Backspace</li>
+              <li>Hit Enter/Return to submit an answer</li>
+              <li>Letters with green background are in the right spot</li>
+              <li>Letters with yellow background exist in the wore, but are in the wrong spots</li>
+              <li>Letters with gray background do not exist in the word</li>
+              <li>If you need a hint, click the &#63 icon</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+
+      <div class = "box3">
+        <p id = "box3" style = "display: none" class = "center"></p>
+      </div>
+
+      <div class = "box4">
+        <footer>
+          <p id = "copyright" class = "center">	&#169 MKF</p>
+        </footer>
+      </div>
+
+      </div>
+    </div>
+  </body>
+</html>

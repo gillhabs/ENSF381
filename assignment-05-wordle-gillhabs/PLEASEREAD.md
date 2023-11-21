@@ -1,0 +1,1 @@
+NOTE: My code works but the buttons were acting weird and I couldn't fix the issue. In order for them to behave correctly, just click again on the screen off of the button to remove the onclick element or everytime you click enter it will click the button again. Thank you!
