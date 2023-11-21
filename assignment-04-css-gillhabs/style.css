@@ -1,0 +1,120 @@
+/* default padding */
+div#content {
+    padding: 30px;
+}
+@media only screen and (max-width: 800px) and (min-width: 400px) {
+  div#content {
+    padding: 10px;
+  }
+}
+h1{
+    font-size: x-large;
+    font-weight: lighter;
+    color: rgb(95, 94, 94);
+    line-height: 0.5;
+    font-family: serif;
+}
+
+h2{
+    font-size: 40px;
+    font-weight: lighter;
+    color: rgb(95, 94, 94);
+    font-family: serif;;
+}
+
+p.graytext{
+    color: gray;
+    font-family: serif;
+    line-height: 0.5;
+}
+
+.circle {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.topnav{
+    overflow: hidden;
+    border-top: 2px solid blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.topnav a{
+    float: left;
+    color: gray;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a.active{
+    color: blueviolet;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+}
+
+.left {
+    flex-basis: 20rem;
+    text-align: center;
+}
+
+.right {
+    border-left: 1px solid lightgrey;
+    padding-left: 1em;
+    flex-basis: 40em;
+}
+
+.purple{
+    color: blueviolet;
+
+}
+
+.email{
+    color: blueviolet;
+    line-height: 0.5;
+
+}
+
+table{
+    border-spacing: 0 5px;
+}
+
+.tab{
+    display: inline-block;
+    margin-left: 80px;
+}
+
+.tab2{
+    display: inline-block;
+    margin-left: 160px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li:before {
+    content: '\2014';
+    position: absolute;
+    margin-left: -20px;
+}
+
+.tabletop{
+    font-size: large;
+    font-weight: bold;
+}
+
+.tablemid{
+    font-size: small;
+    font-weight: light;
+    color: rgb(95, 94, 94);
+}
